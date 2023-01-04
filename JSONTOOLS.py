@@ -11,8 +11,8 @@ HPack算法适用于泛型同构集合，它也是将json数据的key和value抽
 使用说明：
 使用HPack算法对json数据进行压缩和解压：HPack.pack() HPack.unpack()
 使用CJson算法对json数据进行压缩和解压：CJson.pack() CJson.unpack()
-使用HPack+gzip对json数据进行压缩和解压：JsonTools.Hpack_pack() JsonTools.Hpack_unpack()
-使用CJson+gzip对json数据进行压缩和解压：JsonTools.Cjson_pack() JsonTools.Cjson_unpack()
+使用HPack+gzip对json数据进行压缩和解压：JsonZip.Hpack_pack() JsonZip.Hpack_unpack()
+使用CJson+gzip对json数据进行压缩和解压：JsonZip.Cjson_pack() JsonZip.Cjson_unpack()
 ps: 统一json数据格式为存储dict的list
 """
 
